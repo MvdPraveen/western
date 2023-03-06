@@ -11,10 +11,10 @@ provider "azurerm" {
     features {
       
     }
-  subscription_id = "5e1cb9c2-fd93-41ad-afda-c5ca425c70e7"
-  client_id = "5aff3f8c-6bc9-44e8-8c23-0d2bb3648628"
-  client_secret = "-1x8Q~RdRfHQVgBDLW6QfsVz8h4W8t9yC8iQjbYS"
-  tenant_id = "986346f7-3c6e-48ab-b041-e6365a1bc3bd"
+  subscription_id = "4b17b325-659f-4d55-a1dd-05924472aff7"
+  client_id = "92fc1e6d-0ce9-419b-8840-185c9a73257b"
+  client_secret = "FGX8Q~NzFWYUgIdR~vYR2B5wwUFAL8diqTha3bzK"
+  tenant_id = "d93f82c0-b3a5-4166-a867-dde02323e4aa"
 }
 resource "azurerm_resource_group" "tfdevrglabel1" {
     name = "tfdevrg"  
